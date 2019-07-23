@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MostrarTablero"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1.5"
+        android:background="@color/colorPrimaryLight"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:text="@string/titulo_tabla"
+        android:id="@+id/id_ttl_tabla">
+
+    </TextView>
+
+    <HorizontalScrollView
+        android:id="@+id/idHorizontalView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/id_btn_regresar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_regresar"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/id_btn_anadir_modulo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_nuevoModulo"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

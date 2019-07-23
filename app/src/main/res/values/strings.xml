@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Chello</string>
+
+    <string name="titulo_tabla">Titulo tabla</string>
+    <string name="titulo_nota">Titulo nota</string>
+
+    <string name="btn_regresar">Regresar</string>
+    <string name="btn_nuevoModulo">Nuevo modulo</string>
+    <string name="btn_nuevaTarea"> + Nueva tarea </string>
+
+    <string name="texto_nota">Lorem ipsum</string>
+
+    <string name="label_tareas">Tareas:</string>
+    <string name="label_comentarios">Comentarios:</string>
+
+
+    <string name="tituloNota">Título de la nota</string>
+    <string name="descripcionNota">Descripción de la nota</string>
+    <string name="anadirNota">Añadir nota</string>
+    <string name="enLista">En la lista</string>
+
+    <string name="tituloTablero">Título del tablero</string>
+    <string name="crearTablero">Crear tablero</string>
+
+    <string name="tituloModulo">Título del módulo</string>
+    <string name="crearModulo">Crear módulo</string>
+
+    <string name="tituloActividad">Título de la actividad</string>
+    <string name="descripcionActividad">Descripción de la actividad</string>
+    <string name="vencimientoActividad">Vencimiento de la actividad</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="estadoActividad">Estado de la actividad</string>
+    <string name="tituloSubactividad">Título de la subactividad</string>
+
+    <string name="agregarNota">Agregar nota</string>
+    <string name="agregarComentario">Agregar comentario</string>
+    <string name="agregarActividad">Agregar actividad</string>
+
+    <string name="descripcionSubactividad">Descripción de la subactividad</string>
+    <string name="vencimientoSubactividad">Vencimiento de la subactividad</string>
+    <string name="comentario">Comentario</string>
+    <string name="enActividad">En la actividad</string>
+    <string name="agregarSubactividad">Agregar subactividad</string>
+    <string name="modulo">Módulo</string>
+    <string name="agregarModulo">Agregar módulo</string>
+    <string name="tablero">Tablero</string>
+    <string name="agregarTablero">Agregar tablero</string>
+    <string name="equipo">Equipo</string>
+    <string name="buscarUsuario">Buscar usuario</string>
+    <string name="crearEquipo">Crear equipo</string>
+    <string name="usuarios">Usuarios</string>
+
+    <string name="bienvenida">Bienvenido</string>
+    <string name="correo">Correo</string>
+    <string name="tableros">Tableros</string>
+    <string name="equipos">Equipos</string>
+    <string name="cerrarSesion">Cerrar sesión</string>
+    <string name="createAccount">Create Account</string>
+</resources>

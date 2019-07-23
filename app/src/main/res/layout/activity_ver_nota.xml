@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".verNota"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/colorPrimaryLight"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:text="@string/titulo_nota"
+        android:id="@+id/id_ttl_nota"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:text="fecha"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:id="@+id/id_text_nota_fecha"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_nota"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:id="@+id/id_text_nota_descripcion"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_tareas"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="start"
+                android:background="@color/colorPrimary"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:id="@+id/id_label_nota_tareas"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/idScrollTareas">
+
+
+
+            </ScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_comentarios"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="start"
+                android:background="@color/colorPrimary"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:id="@+id/id_label_nota_comentarios"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/idScrollComentarios">
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/id_btn_nota_regresar"
+        android:text="Regresar"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
